@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MALB - Events & Consulting</title>
+  <meta name="description" content="Consultoria especializada em operações, logística, gestão de projetos e experiência do público para eventos que deixam marca.">
+  <meta property="og:title" content="MALB - Events & Consulting">
+  <meta property="og:description" content="Consultoria especializada em operações, logística, gestão de projetos e experiência do público para eventos que deixam marca.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/logoprincipal.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/faviconmalb.png">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#inicio" class="nav-logo">
+      <img src="img/logonavbar.png" alt="MALB Logo">
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="quem-somos.html" data-i18n="nav.about">Quem somos</a></li>
+      <li><a href="#solucoes" data-i18n="nav.solutions">Soluções</a></li>
+      <li><a href="contato.html" class="nav-btn" data-i18n="nav.contact">Contato</a></li>
+    </ul>
+    <div class="nav-lang">
+      <span class="sr-only" data-i18n="nav.language">Idioma</span>
+      <button class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false">
+        <span class="lang-code">EN</span>
+        <img class="lang-flag" src="img/flags/us.svg" alt="United States">
+        <svg class="lang-caret" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 10L12 15L17 10" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <ul class="lang-menu" role="listbox" aria-label="Idioma">
+        <li><button type="button" data-lang="pt" data-label="PT" data-flag="img/flags/br.svg"><span>PT</span><img class="lang-flag" src="img/flags/br.svg" alt="Brasil"></button></li>
+        <li><button type="button" data-lang="en" data-label="EN" data-flag="img/flags/us.svg" aria-selected="true"><span>EN</span><img class="lang-flag" src="img/flags/us.svg" alt="United States"></button></li>
+        <li><button type="button" data-lang="fr" data-label="FR" data-flag="img/flags/fr.svg"><span>FR</span><img class="lang-flag" src="img/flags/fr.svg" alt="França"></button></li>
+        <li><button type="button" data-lang="ro" data-label="RO" data-flag="img/flags/ro.svg"><span>RO</span><img class="lang-flag" src="img/flags/ro.svg" alt="Romênia"></button></li>
+        <li><button type="button" data-lang="es" data-label="ES" data-flag="img/flags/es.svg"><span>ES</span><img class="lang-flag" src="img/flags/es.svg" alt="Espanha"></button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+  
+  <div id="loader">
+    <div class="logo">MALB*</div>
+  </div>
+
+  <header class="hero parallax" id="inicio">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <img src="img/logoprincipal.png" class="logo">
+    </div>
+    <a href="#sobre" class="scroll-down">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 10L12 15L17 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </header>
+
+  <section class="panel about-section" id="sobre">
+    <div class="split-layout">
+      <div class="about-text-column">
+        <h2 data-i18n-html="about.title">
+          Quebramos o padrão...<br>
+          <span class="highlight">...Para elevar o nível.</span>
+        </h2>
+        <p data-i18n-html="about.p1">
+          Nossa jornada começou com uma pergunta simples: por que o mercado entrega apenas o que é pedido, e não o que é necessário? Percebemos que para nos destacar, precisávamos de mais do que logística. Precisávamos de <strong>inteligência</strong>.
+        </p>
+        <p class="highlight-box" data-i18n="about.highlight">
+          Entender o negócio. Sentir a marca. Saber o 'como' e o 'porquê'.
+        </p>
+        <p data-i18n="about.p2">
+          Decidimos que não trabalharíamos para o portfólio, mas para o parceiro. Tomamos o poder desse conhecimento estratégico e o colocamos à prova. O resultado? Experiências que não apenas acontecem, mas marcam.
+        </p>
+        <p data-i18n-html="about.p3">
+          Seja local ou globalmente, a MALB* assume o peso da execução para que você foque no sucesso. 
+          <span class="signature">Conhecimento é impacto.</span>
+        </p>
+      </div>
+
+      <div class="about-image-column">
+        <div class="image-wrapper">
+          <img src="img/larissa-production.png" alt="Larissa Sousa Coelho">
+        </div>
+        <p class="photo-caption" data-i18n="about.caption">Larissa Coelho Founder & Head de Produção MALB</p>
+      </div>
+    </div>
+    <a href="#solucoes" class="scroll-down">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 10L12 15L17 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </section>
+
+  <section class="panel specialties-section" id="solucoes">
+    <div class="specialties-container">
+      <div class="specialties-content">
+        <h2 class="section-title" data-i18n-html="solutions.title"><span class="highlight">Soluções</span></h2>
+        <div class="specialties-grid">
+          <div class="spec-card">
+            <div class="spec-icon"><i class="fa-solid fa-bullseye"></i></div>
+            <div class="spec-text">
+              <h3 data-i18n="solutions.card1.title">Estratégia e Gestão Operacional</h3>
+              <p data-i18n="solutions.card1.desc">Do conceito à execução para eventos de todos os tipos.</p>
+            </div>
+          </div>
+
+          <div class="spec-card">
+            <div class="spec-icon"><i class="fa-solid fa-ranking-star"></i></div>
+            <div class="spec-text">
+              <h3 data-i18n="solutions.card2.title">Customer Experience</h3>
+              <p data-i18n="solutions.card2.desc">Criando jornadas de serviço que fortalecem a satisfação e a fidelidade.</p>
+            </div>
+          </div>
+
+          <div class="spec-card">
+            <div class="spec-icon"><i class="fa-solid fa-gears"></i></div>
+            <div class="spec-text">
+              <h3 data-i18n="solutions.card3.title">Otimização de Processos e Fluxos de Trabalho</h3>
+              <p data-i18n="solutions.card3.desc">Criação de sistemas operacionais que melhoram eficiência e responsabilidade.</p>
+            </div>
+          </div>
+
+          <div class="spec-card">
+            <div class="spec-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="spec-text">
+              <h3 data-i18n="solutions.card4.title">Gestão de Projetos e Controle Financeiro</h3>
+              <p data-i18n="solutions.card4.desc">Planejamento de recursos, orçamentos e relatórios cruzados entre departamentos.</p>
+            </div>
+          </div>
+
+          <div class="spec-card">
+            <div class="spec-icon"><i class="fa-solid fa-brain"></i></div>
+            <div class="spec-text">
+              <h3 data-i18n="solutions.card5.title">Liderança Interfuncional</h3>
+              <p data-i18n="solutions.card5.desc">Coordenação de stakeholders integrando marketing, logística, finanças e produção.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#conquistas" class="scroll-down">
+          <svg width="40" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 10L12 15L17 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="achievements-section" id="conquistas">
+    <div class="achievements-container">
+      <h2 class="section-title" data-i18n-html="achievements.title"><span class="highlight">Conquistas</span></h2>
+      <div class="achievements-grid">
+        <div class="timeline-path"></div>
+
+        <div class="achieve-card card-1">
+          <h3 data-i18n="achievements.card1.title">Festival Mr Moo – Edição 10 Anos</h3>
+          <p data-i18n="achievements.card1.desc">Como Produtor Executivo, edição que garantiu ao evento o título do Guinness World Records como Maior Festival de Churrasco do Mundo, com grandes shows, público de milhares de pessoas e mais de 700 profissionais envolvidos.</p>
+        </div>
+
+        <div class="achieve-card card-2">
+          <h3 data-i18n="achievements.card2.title">Liderança em Grande Escala</h3>
+          <p data-i18n="achievements.card2.desc">Gestão de mais de 30 eventos nacionais de automobilismo, reunindo mais de 80.000 participantes, com excelência na logística e hospitalidade em 3 países e mais de 20 cidades</p>
+        </div>
+
+        <div class="achieve-card card-3">
+          <h3 data-i18n="achievements.card3.title">Inovação em Operações</h3>
+          <p data-i18n="achievements.card3.desc">Implantação pioneira de autenticação digital por reconhecimento facial, eliminando o uso de plásticos, reduzindo custos operacionais e estabelecendo um novo padrão de sustentabilidade no credenciamento</p>
+        </div>
+
+        <div class="achieve-card card-4">
+          <h3 data-i18n="achievements.card4.title">Transformação de Sistemas</h3>
+          <p data-i18n="achievements.card4.desc">Implementação de sistemas integrados de bilhetagem e financeiro, ampliando a visibilidade de dados, reduzindo erros manuais e agilizando a tomada de decisões estratégicas.</p>
+        </div>
+
+        <div class="achieve-card card-5">
+          <h3 data-i18n="achievements.card5.title">Eficiência Organizacional</h3>
+          <p data-i18n="achievements.card5.desc">Aumento de 30% na eficiência do fluxo de trabalho por meio da reformulação de processos e da implementação de ferramentas de coordenação em tempo real.</p>
+        </div>
+        
+        <div class="achieve-card card-6 final-card">
+          <h3 data-i18n="achievements.card6.title">Isso é MALB</h3>
+        </div>
+      </div>
+    </div>
+    <a href="#portifolio" class="scroll-down">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7 10L12 15L17 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </section>
+
+  <section class="portfolio-section" id="portifolio">
+    <div class="portfolio-header">
+      <h2 class="section-title" data-i18n-html="portfolio.title">Cases de <span class="highlight">sucesso</span></h2>
+      <p class="portfolio-subtitle" data-i18n="portfolio.subtitle">Explore a trajetória</p>
+    </div>
+
+    <button class="nav-arrow prev">
+      <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+    </button>
+    
+    <button class="nav-arrow next">
+      <svg viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+    </button>
+
+    <div class="portfolio-container">
+      <article class="portfolio-card">
+        <div class="card-header">
+          <h3>Stock Car</h3>
+          
+        </div>
+        <div class="card-role" data-i18n="portfolio.stock.role">Sr Producer & Coord. Operações</div>
+        <p class="card-desc" data-i18n="portfolio.stock.desc">Ao longo de quatro anos, evolução da área de suporte administrativo/financeiro para a liderança de operações nacionais na Stock Car, com atuação na coordenação de logística, hospitalidade e customer experience em projetos de grande escala no Brasil. Participação no planejamento e na entrega de mais de 30 eventos de motorsport, assegurando excelência operacional, integração entre áreas e consistência na experiência do público.</p>
+        <ul class="card-highlights">
+
+          <li data-i18n="portfolio.stock.hl1">Planejamento e execução de logística em grande escala</li>
+          <li data-i18n="portfolio.stock.hl2">Desenvolvimento de processos de ticketing</li>
+          <li data-i18n="portfolio.stock.hl3">Gestão de crise e service recovery</li>
+          <li data-i18n="portfolio.stock.hl4">Padronização de atendimento ao público</li>
+        </ul>
+        <div class="card-tags">
+          <span data-i18n="portfolio.tags.operations">Operações</span><span data-i18n="portfolio.tags.cx">CX</span><span data-i18n="portfolio.tags.leadership">Liderança</span><span data-i18n="portfolio.tags.logistics">Logística</span>
+        </div>
+      </article>
+
+      <article class="portfolio-card">
+        <div class="card-header">
+          <h3>MR MOO Festival</h3>
+          
+        </div>
+        <div class="card-role" data-i18n="portfolio.mrmoo.role">Executive Producer (Guinness Project)</div>
+        <p class="card-desc" data-i18n="portfolio.mrmoo.desc">Atuação como Executive Producer em projeto de alta complexidade que resultou no reconhecimento internacional do Guinness World Records como Maior Festival de Churrasco do Mundo, com foco na operação e governança do evento.</p>
+        <ul class="card-highlights">
+
+          <li data-i18n="portfolio.mrmoo.hl1">Gestão de credenciamento e controle de acessos</li>
+          <li data-i18n="portfolio.mrmoo.hl2">Organização e fluxo de acesso do público</li>
+          <li data-i18n="portfolio.mrmoo.hl3">Suporte direto à diretoria</li>
+          
+        </ul>
+        <div class="card-tags">
+          <span data-i18n="portfolio.tags.scale">Logística Escala</span><span data-i18n="portfolio.tags.suppliers">Fornecedores</span><span data-i18n="portfolio.tags.guinness">Guinness Planning</span><span data-i18n="portfolio.tags.experience">Experiência</span>
+        </div>
+      </article>
+
+      <article class="portfolio-card">
+        <div class="card-header">
+          <h3>FIA WEC Rolex 6H SP</h3>
+          
+        </div>
+        <div class="card-role" data-i18n="portfolio.wec.role">Coordenação Geral & Estratégica</div>
+        <p class="card-desc" data-i18n="portfolio.wec.desc">Atuação em PMO na coordenação estratégica do FIA WEC – Rolex 6 Horas de São Paulo, promovendo o alinhamento entre equipes locais e internacionais, a governança do projeto e a organização do planejamento de médio e longo prazo. A edição 2025 recebeu mais de 80.000 pessoas, com continuidade na liderança do planejamento da edição 2026.</p>
+        <ul class="card-highlights">
+          <li data-i18n="portfolio.wec.hl1">Gestão integrada de projetos de produção internacional (80k+ participantes)</li>
+          <li data-i18n="portfolio.wec.hl2">Governança e gestão de stakeholders institucionais e patrocinadores</li>
+          <li data-i18n="portfolio.wec.hl3">Apoio direto à diretoria, com estruturação de fluxos estratégicos de informação</li>
+          <li data-i18n="portfolio.wec.hl4">Elaboração e consolidação de relatórios gerenciais, garantindo visibilidade executiva e alinhamento entre áreas</li>
+        </ul>
+        <div class="card-tags">
+          <span data-i18n="portfolio.tags.strategy">Estratégia</span><span data-i18n="portfolio.tags.intOps">Operações Int.</span><span data-i18n="portfolio.tags.stakeholders">Stakeholders</span><span data-i18n="portfolio.tags.hospitality">Hospitalidade</span>
+        </div>
+      </article>
+
+      <article class="portfolio-card">
+        <div class="card-header">
+          <h3>BH Stock Festival</h3>
+          
+        </div>
+        <div class="card-role" data-i18n="portfolio.bh.role">Project Manager Operações</div>
+        <p class="card-desc" data-i18n="portfolio.bh.desc">Evento realizado no Mineirão que integrou motorsport, música e entretenimento em uma produção multi-experiência. Atuação como PM garantindo o alinhamento entre a Stock Car e a equipe do festival, com coordenação de operações, gestão de cronogramas e infraestrutura, assegurando fluxo do público, segurança e consistência de entrega em grande escala.</p>
+        <ul class="card-highlights">
+          <li data-i18n="portfolio.bh.hl1">Integração de equipes e estruturação de governança</li>
+          <li data-i18n="portfolio.bh.hl2">Gestão de logística complexa em ambiente de estádio</li>
+          <li data-i18n="portfolio.bh.hl3">Garantia de consistência da experiência do público em larga escala</li>
+          <li data-i18n="portfolio.bh.hl4">Gestão de credenciamento e infraestrutura</li>
+        </ul>
+        <div class="card-tags">
+          <span data-i18n="portfolio.tags.pmo">PMO</span><span data-i18n="portfolio.tags.infrastructure">Infraestrutura</span><span data-i18n="portfolio.tags.integration">Integração</span><span data-i18n="portfolio.tags.planning">Planejamento</span>
+        </div>
+      </article>
+      <article class="portfolio-card">
+        <div class="card-header">
+          <h3>Juntos Somos Mais Forte</h3>
+          
+        </div>
+        <div class="card-role" data-i18n="portfolio.juntos.role">Project Manager Engajamento</div>
+        <p class="card-desc" data-i18n="portfolio.juntos.desc">Experiência corporativa interna realizada no autódromo, desenvolvida em parceria com a área de RH com o objetivo de fortalecer cultura e engajamento organizacional. Atuação em planejamento e coordenação do projeto, conectando colaboradores aos bastidores da produção e das operações do motorsport, com entrega de uma jornada de alto impacto, alinhada e fluida.</p>
+        <ul class="card-highlights">
+          <li data-i18n="portfolio.juntos.hl1">Co-criação de conceito em parceria com RH</li>
+          <li data-i18n="portfolio.juntos.hl2">Planejamento logístico e gestão de convidados</li>
+          <li data-i18n="portfolio.juntos.hl3">Coordenação da execução on-site</li>
+          <li data-i18n="portfolio.juntos.hl4">Fortalecimento do propósito e da cultura organizacional</li>
+        </ul>
+        <div class="card-tags">
+          <span data-i18n="portfolio.tags.corporate">Eventos Corporativos</span><span data-i18n="portfolio.tags.internal">Comunicação Interna</span><span data-i18n="portfolio.tags.engagement">Engajamento</span>
+        </div>
+      </article>
+
+      <article class="portfolio-card">
+        <div class="card-header">
+          <h3>CTIO Event</h3>
+          
+        </div>
+        <div class="card-role" data-i18n="portfolio.ctio.role">Project Manager Coordenação VIP</div>
+        <p class="card-desc" data-i18n="portfolio.ctio.desc">Evento premium voltado à divisão de tecnologia, reunindo CTIOs e lideranças em uma experiência exclusiva no autódromo, com foco em networking, prospecção e relacionamento estratégico. Atuação no planejamento do projeto, na logística VIP e na coordenação de parceiros, assegurando uma entrega alinhada ao branding e aos objetivos de relacionamento da iniciativa.</p>
+        <ul class="card-highlights">
+          <li data-i18n="portfolio.ctio.hl1">Hospitalidade premium e guest relations</li>
+          <li data-i18n="portfolio.ctio.hl2">Desenvolvimento de formato integrado entre tecnologia e motorsport</li>
+          <li data-i18n="portfolio.ctio.hl3">Produção de experiência de alto padrão</li>
+          <li data-i18n="portfolio.ctio.hl4">Foco estratégico em relacionamento e aquisição</li>
+        </ul>
+        <div class="card-tags">
+          <span data-i18n="portfolio.tags.vip">VIP/Corporate</span><span data-i18n="portfolio.tags.relationship">Relacionamento</span><span data-i18n="portfolio.tags.logistics">Logística</span><span data-i18n="portfolio.tags.activation">Ativação</span>
+        </div>
+      </article>
+
+      <article class="portfolio-card">
+        <div class="card-header">
+          <h3>Fórmula 4 — GP São Paulo</h3>
+          
+        </div>
+        <div class="card-role" data-i18n="portfolio.f4.role">Project Manager - F1 Ecosystem</div>
+        <p class="card-desc" data-i18n="portfolio.f4.desc">Coordenação da Fórmula 4 Brasil por dois anos consecutivos dentro do ecossistema do GP de Fórmula 1 em São Paulo, atuando como interface estratégica entre as equipes envolvidas. Responsabilidade pelo alinhamento de cronogramas, segurança, acessos, transporte e operação de pista, em um ambiente de alta complexidade, pressão e precisão.</p>
+        <ul class="card-highlights">
+          <li data-i18n="portfolio.f4.hl1">Gestão de logística da delegação F4</li>
+          <li data-i18n="portfolio.f4.hl2">Interface e alinhamento operacional entre os ecossistemas F1 e F4</li>
+          <li data-i18n="portfolio.f4.hl3">Coordenação de transporte, travel e operação de pista</li>
+          <li data-i18n="portfolio.f4.hl4">Execução reconhecida pela alta sincronização entre frentes</li>
+        </ul>
+        <div class="card-tags">
+          <span data-i18n="portfolio.tags.intCoord">Coordenação Int.</span><span data-i18n="portfolio.tags.motorsport">Motorsport</span><span data-i18n="portfolio.tags.pressure">Pressão</span><span data-i18n="portfolio.tags.logistics">Logística</span>
+        </div>
+      </article>
+
+      <article class="portfolio-card">
+        <div class="card-header">
+          <h3>Salão Internacional do Automóvel - São Paulo</h3>
+          
+        </div>
+        <div class="card-role" data-i18n="portfolio.siasp.role">Project Manager.</div>
+        <p class="card-desc" data-i18n="portfolio.siasp.desc">Atuação como Gerente de Projeto no estande FIA WEC Rolex 6 horas de São Paulo, com responsabilidade integral pelo planejamento e execução de um dos estandes mais visitados do evento. Escopo abrangendo desde a concepção do estande, cenografia e operação diária até a coordenação de equipes, parceiros e fluxos de atendimento ao público ao longo de 10 dias de evento de grande sucesso.</p>
+        <ul class="card-highlights">
+          <li data-i18n="portfolio.siasp.hl1">Planejamento estratégico e execução do projeto do estande</li>
+          <li data-i18n="portfolio.siasp.hl2">Gestão da operação diária, logística e fluxos de público</li>
+          <li data-i18n="portfolio.siasp.hl3">Coordenação de cenografia, fornecedores e parceiros</li>
+          <li data-i18n="portfolio.siasp.hl4">Comunicação contínua com a equipe do projeto e stakeholders</li>
+          <li data-i18n="portfolio.siasp.hl5">Elaboração de briefing, escalação e liderança de equipes on-site</li>
+        </ul>
+        <div class="card-tags">
+          <span data-i18n="portfolio.tags.garantia">Garantia de consistência de marca</span><span data-i18n="portfolio.tags.experience">experiência do visitante e alto volume de engajamento</span><span data-i18n="portfolio.tags.cenografia">Cenografia para a marca</span>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <section class="cta-section">
+    <div class="cta-glow"></div>
+    <div class="cta-container">
+      <h2 class="cta-title" data-i18n="cta.title">Pronto para elevar o nível?</h2>
+      <p class="cta-subtitle" data-i18n="cta.subtitle">
+        Vamos transformar sua próxima ideia em uma experiência inesquecível. 
+      </p>
+      <a href="contato.html" class="cta-btn">
+        <span data-i18n="cta.button">Começar Projeto</span> <span class="arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-col brand-col">
+        <img src="img/logonavbar.png" alt="MALB Logo" class="footer-logo">
+        <p class="footer-desc" data-i18n="footer.desc">MALB. Events & Consulting
+MALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007
+Str. Radu Captariu 15, Sector 2, Bucareste – Romênia</p>
+      </div>
+
+      <div class="footer-col links-col">
+        <h4 data-i18n="footer.explore">Explorar</h4>
+        <ul>
+          <li><a href="quem-somos.html" data-i18n="footer.about">Quem Somos</a></li>
+          <li><a href="#solucoes" data-i18n="footer.solutions">Soluções</a></li>
+          <li><a href="#conquistas" data-i18n="footer.achievements">Conquistas</a></li>
+          <li><a href="#portifolio" data-i18n="footer.cases">Cases</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col social-col">
+        <h4 data-i18n="footer.contact">Contato</h4>
+        <p>Contact@malbcorp.com</p>
+        <p>+55 11 94519-4196</p>
+        <p data-i18n="footer.location">Bucharest – Romania</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/malbcompany?igsh=MTcxdTE5d2hld3hqNA==" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/larissa-coelho-sousa-b42a6b1aa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/5511945194196" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="footer.rights">&copy; 2026 MALB Events & Consulting. Todos os direitos reservados.</p>
+      <p class="credits" data-i18n="footer.credits">Designed by DestinoConectado</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+</body>
+</html>
+
+

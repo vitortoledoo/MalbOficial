@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - MALB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="img/faviconmalb.png">
+</head>
+
+<body class="navbar-always">
+  
+  <nav class="navbar">
+    <a href="index.html#inicio" class="nav-logo">
+      <img src="img/logonavbar.png" alt="MALB Logo">
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="quem-somos.html" data-i18n="nav.about">Quem somos</a></li>
+      <li><a href="index.html#solucoes" data-i18n="nav.solutions">Soluções</a></li>
+      <li><a href="contato.html" class="nav-btn" data-i18n="nav.contact">Contato</a></li>
+    </ul>
+    <div class="nav-lang">
+      <span class="sr-only" data-i18n="nav.language">Idioma</span>
+      <button class="lang-toggle" type="button" aria-haspopup="listbox" aria-expanded="false">
+        <span class="lang-code">EN</span>
+        <img class="lang-flag" src="img/flags/us.svg" alt="United States">
+        <svg class="lang-caret" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 10L12 15L17 10" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <ul class="lang-menu" role="listbox" aria-label="Idioma">
+        <li><button type="button" data-lang="pt" data-label="PT" data-flag="img/flags/br.svg"><span>PT</span><img class="lang-flag" src="img/flags/br.svg" alt="Brasil"></button></li>
+        <li><button type="button" data-lang="en" data-label="EN" data-flag="img/flags/us.svg" aria-selected="true"><span>EN</span><img class="lang-flag" src="img/flags/us.svg" alt="United States"></button></li>
+        <li><button type="button" data-lang="fr" data-label="FR" data-flag="img/flags/fr.svg"><span>FR</span><img class="lang-flag" src="img/flags/fr.svg" alt="França"></button></li>
+        <li><button type="button" data-lang="ro" data-label="RO" data-flag="img/flags/ro.svg"><span>RO</span><img class="lang-flag" src="img/flags/ro.svg" alt="Romênia"></button></li>
+        <li><button type="button" data-lang="es" data-label="ES" data-flag="img/flags/es.svg"><span>ES</span><img class="lang-flag" src="img/flags/es.svg" alt="Espanha"></button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <main class="contact-premium-section">
+    <div class="contact-bg-layer"></div> 
+    <div class="contact-wrapper">
+      <div class="contact-info-col">
+        <h1 class="big-title" data-i18n-html="contact.title">Tem um projeto em mente?<br><span class="highlight">Conte para a gente!</span></h1>
+        <p class="desc" data-i18n="contact.desc">
+          Grandes experiências começam com uma boa estratégia. 
+          O seu desafio é o nosso trabalho.
+        </p>
+
+        <div class="direct-details">
+          <div class="detail-item">
+            <i class="fa-regular fa-envelope"></i>
+            <div>
+              <span data-i18n="contact.emailLabel">Fale com a gente</span>
+              <a href="mailto:Contact@malbcorp.com">Contact@malbcorp.com</a>
+            </div>
+          </div>
+
+          <div class="detail-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <span data-i18n="contact.locationLabel">Base</span>
+              <p data-i18n="footer.location">Bucharest – Romania</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="https://www.instagram.com/malbcompany?igsh=MTcxdTE5d2hld3hqNA==" class="social-btn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/larissa-coelho-sousa-b42a6b1aa" class="social-btn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/5511945194196" class="social-btn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="contact-form-col">
+        <form class="glass-form" action="https://formsubmit.co/Contact@malbcorp.com" method="POST">
+          <div class="form-header">
+            <h3 data-i18n="contact.formTitle">Envie uma mensagem</h3>
+          </div>
+
+          <div class="input-wrap">
+            <input type="text" name="name" required placeholder=" " id="name" data-i18n-placeholder="contact.namePlaceholder">
+            <label for="name" data-i18n="contact.nameLabel">Seu Nome</label>
+          </div>
+
+          <div class="input-wrap">
+            <input type="email" name="email" required placeholder=" " id="email" data-i18n-placeholder="contact.emailPlaceholder">
+            <label for="email" data-i18n="contact.emailField">E-mail</label>
+          </div>
+
+          <div class="input-wrap">
+            <textarea name="message" rows="4" required placeholder=" " id="message" data-i18n-placeholder="contact.messagePlaceholder"></textarea>
+            <label for="message" data-i18n="contact.messageLabel">Sobre o projeto...</label>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <span data-i18n="contact.submit">Enviar sua ideia</span> <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-col brand-col">
+        <img src="img/logonavbar.png" alt="MALB Logo" class="footer-logo">
+        <p class="footer-desc" data-i18n="footer.desc">MALB. Events & Consulting
+MALB Consulting & Events S.R.L. · CUI 52796517 · Reg. Comercial J2025082905007
+Str. Radu Captariu 15, Sector 2, Bucareste – Romênia</p>
+      </div>
+      <div class="footer-col links-col">
+        <h4 data-i18n="footer.explore">Explorar</h4>
+        <ul>
+          <li><a href="quem-somos.html" data-i18n="footer.about">Quem Somos</a></li>
+          <li><a href="index.html#solucoes" data-i18n="footer.solutions">Soluções</a></li>
+          <li><a href="index.html#conquistas" data-i18n="footer.achievements">Conquistas</a></li>
+          <li><a href="index.html#portifolio" data-i18n="footer.cases">Cases</a></li>
+        </ul>
+      </div>
+      <div class="footer-col social-col">
+        <h4 data-i18n="footer.contact">Contato</h4>
+        <p>Contact@malbcorp.com</p>
+        <p data-i18n="footer.location">Bucharest – Romania</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/malbcompany?igsh=MTcxdTE5d2hld3hqNA==" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/larissa-coelho-sousa-b42a6b1aa" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://wa.me/5511945194196" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer.rightsShort">&copy; 2026 MALB Events & Consulting.</p>
+      <p class="credits" data-i18n="footer.credits">Designed by DestinoConectado</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+</body>
+</html>
+
+
