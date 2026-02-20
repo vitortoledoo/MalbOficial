@@ -202,7 +202,7 @@ const translations = {
     en: {
         nav: { about: 'About', solutions: 'Solutions', contact: 'Contact', language: 'Language' },
         about: {
-            title: 'We break the pattern...<br><span class="highlight">...to raise the bar.</span>',
+            title: 'We break the pattern...<br><span class="highlight">...to raise the level.</span>',
             p1: 'Our journey started with a simple question: why does the market deliver only what is asked for, and not what is needed? We realized that to stand out, we needed more than logistics. We needed <strong>intelligence</strong>.',
             highlight: "Understand the business. Feel the brand. Know the 'how' and the 'why'.",
             p2: 'We decided we would not work for the portfolio, but for the partner. We took the power of this strategic knowledge and put it to the test. The result? Experiences that don’t just happen, they leave a mark.',
@@ -324,7 +324,7 @@ const translations = {
             }
         },
         cta: {
-            title: 'Ready to raise the bar?',
+            title: 'Ready to raise the level?',
             subtitle: 'Let’s turn your next idea into an unforgettable experience.',
             button: 'Start a Project'
         },
