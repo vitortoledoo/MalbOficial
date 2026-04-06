@@ -1251,15 +1251,6 @@ a, button {
   font-size: 0.95rem;
 }
 
-.contact-flag {
-  width: 18px;
-  height: 12px;
-  object-fit: cover;
-  border-radius: 2px;
-  margin-right: 6px;
-  vertical-align: middle;
-}
-
 .social-icons {
   display: flex;
   gap: 15px;
